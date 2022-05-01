@@ -1,0 +1,46 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="container" >
+ 
+      <div class="content">
+        <canvas id="myCanvas" width="400" height="550"></canvas>
+      </div>
+      <div class="cover" id="cover" width="400" height="550">
+        <p class ="cover_heading" ></p>
+        <a id="gameover_restart">PLAY AGAIN !</a>
+ 
+        <p id="gameover_score">SCORE <SPAN>25</SPAN></p>
+      
+    </div>
+ <div class="menu">
+     <div class="menu_item">
+       <i class="fa-solid fa-volume-high sound_btn true" id="sound_btn"></i>
+       <p class="menu_para">SOUND</p>
+  </div>
+     <div class="menu_item">
+       <i class="fa-solid fa-fire-flame-curved diff_btn easy" id="diff_btn"></i>
+       <p class="menu_para" id="diff_text">EASY</p>
+      </div>
+     <div class="menu_item">
+       <i class="fa-solid fa-sun theme_btn light" id="theme_btn"></i>
+       <p class="menu_para">THEME</p>
+      </div>
+     <div class="menu_item Layout_btn">
+       
+        <i class=" fa-solid fa-chevron-up size_btn increase" id="size_btn_increase"></i>
+        <i class="fa-solid fa-chevron-down size_btn decrease" id="size_btn_decrease"></i>
+
+        <p class="menu_para">Layout</p>
+    </div>
+     <div class="menu_item"><i class="fa-solid fa-arrow-rotate-left" id="restart_btn"></i>
+    <p class="menu_para">RESTART</p></div>
+ </div>
+  </div>
+</body>
+<script src="font.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
